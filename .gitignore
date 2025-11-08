@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv17/
+env/
+ENV/
+
+# Odoo
+*.log
+*.pot
+*.pyc
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+filestore/
+sessions/
+
+# Database
+*.db
+*.sqlite
+
+# Config files with sensitive data
+odoo17.conf
+
+# Odoo core (nếu không muốn đẩy lên)
+odoo17/addons/
+odoo17/odoo/
+odoo17/setup/
+odoo17/debian/
+odoo17/doc/
+
+# Chỉ giữ custom_addons
+!odoo17/custom_addons/
+
+# System files
+.DS_Store
+Thumbs.db
