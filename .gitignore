@@ -32,15 +32,16 @@ sessions/
 # Config files with sensitive data
 odoo17.conf
 
-# Odoo core (nếu không muốn đẩy lên)
+# Odoo core (không đẩy lên để giảm dung lượng)
 odoo17/addons/
 odoo17/odoo/
 odoo17/setup/
 odoo17/debian/
 odoo17/doc/
 
-# Chỉ giữ custom_addons
+# Giữ lại custom_addons
 !odoo17/custom_addons/
+!odoo17/custom_addons/**
 
 # System files
 .DS_Store

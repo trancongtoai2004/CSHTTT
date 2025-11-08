@@ -1,0 +1,15 @@
+Collecting gevent
+  Using cached gevent-25.9.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (14 kB)
+Collecting greenlet
+  Using cached greenlet-3.2.4-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (4.1 kB)
+Collecting zope.event (from gevent)
+  Using cached zope_event-6.1-py3-none-any.whl.metadata (5.1 kB)
+Collecting zope.interface (from gevent)
+  Using cached zope_interface-8.0.1-cp310-cp310-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl.metadata (44 kB)
+Using cached gevent-25.9.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (2.2 MB)
+Using cached greenlet-3.2.4-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (584 kB)
+Using cached zope_event-6.1-py3-none-any.whl (6.4 kB)
+Using cached zope_interface-8.0.1-cp310-cp310-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl (254 kB)
+Installing collected packages: zope.interface, zope.event, greenlet, gevent
+
+Successfully installed gevent-25.9.1 greenlet-3.2.4 zope.event-6.1 zope.interface-8.0.1
